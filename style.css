@@ -31,7 +31,20 @@ header Section
   color: var(--white);
   animation: textleft 1s ease forwards;
 }
+.nav_bar span i {
+  color: var(--white);
+  font-size: 1.3rem;
+}
+.hidden {
+  display: none;
+}
+.mobile {
+  display: none;
+}
 
+.flex {
+  display: flex;
+}
 .nav_bar div a {
   letter-spacing: 1px;
   display: inline-block;
@@ -50,6 +63,7 @@ header Section
 .nav_bar div a:hover {
   color: var(--color);
 }
+
 /*==============
  content_box
 ================*/
@@ -326,5 +340,19 @@ div form button {
   }
   div form button {
     margin: 1rem auto;
+  }
+
+  .img_box {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .nav_bar div a {
+    padding: 0;
+  }
+}
+@media (max-width: 1084px) {
+  .content_box {
+    margin-top: 70px;
   }
 }

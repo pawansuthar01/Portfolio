@@ -16,7 +16,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
-  padding: 20px 50px 0 50px;
+  padding: 20px 50px 50px 50px;
 }
 /*=================
 header Section
@@ -192,4 +192,14 @@ textarea {
   box-shadow: 0px 0px 10px #a19f9f;
   margin: 0.75rem 0;
   text-transform: capitalize;
+}
+@media (max-width: 1000px) {
+  body {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .nav_bar div a {
+    padding: 0;
+  }
 }
