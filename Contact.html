@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawanwithcode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="contect.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar">
+        <h1>Portfolio.</h1>
+        <div>
+          <a href="index.html" style="--i: 1">Home</a>
+          <a href="About.html" style="--i: 2">About</a>
+          <!-- <a href="Skills.html" style="--i: 3">Skills</a> -->
+          <!-- <a href="projects.html" style="--i: 4">Projects</a> -->
+          <a class="active" href="Contact.html" style="--i: 5">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form_section">
+          <h1>Contect Me <span>!</span></h1>
+          <form>
+            <input
+              maxlength="15"
+              type="text"
+              name="Name"
+              id="Name"
+              required
+              placeholder="Name"
+            />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="email"
+            />
+
+            <input
+              minlength="10"
+              type="number"
+              name="number"
+              id="number"
+              required
+              placeholder="Number"
+            />
+
+            <textarea
+              name="subject"
+              id="subject"
+              required
+              placeholder="Send me massage"
+            ></textarea>
+
+            <button type="submit" class="btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
