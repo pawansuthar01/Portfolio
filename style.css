@@ -337,7 +337,7 @@ About css
 
     display: flex;
   }
-  div form button {
+  .form button {
     margin: 1rem auto;
   }
 
