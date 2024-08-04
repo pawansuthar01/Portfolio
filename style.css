@@ -270,7 +270,7 @@ About css
   filter: drop-shadow(0 0 12px var(--color));
 }
 
-div form textarea {
+.form textarea {
   border: 2px solid var(--color);
   outline: none;
   width: 250px;
@@ -281,8 +281,7 @@ div form textarea {
   animation: silderright 1s ease forwards;
   animation-delay: 1s;
 }
-
-div form button {
+.form button {
   display: flex;
   justify-content: center;
   margin: 1rem 0 0 2rem;
