@@ -265,8 +265,8 @@ About css
 }
 .image {
   opacity: 0;
-  animation: silderbottom 2s ease forwards;
-  animation-delay: 2s;
+  animation: zoomin 1s linear forwards, updown 4s ease-in-out infinite;
+  animation-delay: 2s, 3s;
   filter: drop-shadow(0 0 12px var(--color));
 }
 
